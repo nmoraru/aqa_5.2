@@ -1,5 +1,9 @@
+package ru.netology;
+
 import com.codeborne.selenide.Condition;
 import org.junit.jupiter.api.Test;
+import ru.netology.data.DataGenerator;
+import ru.netology.data.RegistrationDto;
 
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
